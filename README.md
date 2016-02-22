@@ -91,15 +91,27 @@ This is a 'clean-sheet' guide for going from zero applications installed to havi
 ### Setup Game Project Workspace
 LibGDX provides an executable [gdx-setup.jar][libgdx-jar] for creating an initial Eclipse workspace that includes Android, Desktop, Html, iOS and Core projects, with LibGDX dependencies. This uses [Gradle][] build files to integrate this workspace into Eclipse (or your IDE of choice). 
 
-For this demonstration, just download / clone the Git project to a folder on your computer.
+**For this demonstration, just download / clone the Git project to a folder on your computer.**
 
-1. Use Tortoise GIT to clone <https://github.com/blueacorn/libgdx-spriter-demo>
+1. Use Tortoise GIT to clone <https://github.com/blueacorn/libgdx-spriter-demo> to your computer.
 
-When you come to create your game project from scratch, you will want to create your own workspace; with your own package and game names:
-
-1. See [LibGDX - Wiki - Project Setup Gradle][libgdx-setup] for full instructions
-	1. Run [gdx-setup.jar][libgdx-jar] to create a new game project workspace
-2. Edit 
+> When you come to create your game project from scratch, you will want to create your own workspace; with your own package and game names:
+>
+> 1. See [LibGDX - Wiki - Project Setup Gradle][libgdx-setup] for full instructions
+> 	1. Run [gdx-setup.jar][libgdx-jar] to create a new game project workspace
+>2. Create a new 'spriter' project in the root workspace
+>   1. Fetch latest Spriter runtime submodule using git
+>      1. Use Tortoise Git to add a submodule: 
+>         - Repository: <https://github.com/trixt0r/spriter>
+>         - Path:       <*your-new-workspace*\spriter\libs>
+>   1. Copy 'spriter' project files from:
+>      - From: <https://github.com/blueacorn/libgdx-spriter-demo/spriter/src>
+>      - To:   <*your-new-workspace*\spriter>
+>   3. Add workspace 'gradle.build' file for 'spriter' project dependencies
+>      - See:  <https://github.com/blueacorn/libgdx-spriter-demo/gradle.build>
+>      -Update:<*your-new-workspace*\gradle.build>
 
 [libgdx-setup]: https://github.com/libgdx/libgdx/wiki/Project-Setup-Gradle
 [libgdx-jar]:   https://libgdx.badlogicgames.com/nightlies/dist/gdx-setup.jar
+
+### 

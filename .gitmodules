@@ -1,0 +1,3 @@
+[submodule "spriter/libs"]
+	path = spriter/libs
+	url = https://github.com/trixt0r/spriter
