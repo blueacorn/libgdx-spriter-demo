@@ -60,5 +60,8 @@ nb-configuration.xml
 gradle-app.setting
 build/
 
+## Spriter
+*.autosave.scml
+
 ## OS Specific
 .DS_Store

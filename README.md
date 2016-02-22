@@ -1,18 +1,23 @@
-# LibGDX Spriter Demonstration
-Demonstrates using [LibGDX][] game platform with the [Spriter Runtime][] to produce multi-platform games based on [Spriter][] 2D animations, that run on Android, Desktop, HTML and iOS.
-
-*Note: This is a work-in-progress, please Fork, Edit and Push any improvements back to this project, or email me: `github1``@``blueacorn.co.uk`*
+# LibGDX + Spriter Demonstration
+Demonstration Project using [LibGDX][] game platform with the [Spriter Runtime][] to produce multi-platform games based on [Spriter][] 2D animations, that run on Android, Desktop, HTML and iOS.
 
 [LibGDX]: https://libgdx.badlogicgames.com/download.html
 [Spriter]: http://brashmonkey.com
 [Spriter Runtime]: https://github.com/Trixt0r/spriter
 
 ## Contents
+- [Showcase](#Showcase)
 - [Credits](#Credits)
 - [Requirements](#Requirements)
 - [Getting Started](#GettingStarted)
+- [Notes](#Notes)
 
-## Credits
+## <a name="Showcase">Showcase</a>
+
+![Spriter Pro Editor](doc/img/screenshot-spriter.png)
+
+## <a name="Credits">Credits</a>
+
 For most of us, writing good software is about standing on the shoulders of giants.  This demonstration is to showcase the work of others and allow programmers new to the wonders of LibGDX, Spriter, and 2D animation to get a running-start in writing cool 2D games of their own.  
 
 The source code in this demonstration includes work from:
@@ -39,7 +44,7 @@ The knowledge to put this demonstration together comes from the following source
 [LibGDX-Wiki]: https://github.com/libgdx/libgdx/wiki
 [trixt0r-readme]: https://github.com/Trixt0r/spriter/blob/master/README.md
 
-## Requirements 
+## <a name="Requirements">Requirements</a> 
 List of the Applications / Frameworks used in this feature demonstration.
 
 - [Eclipse IDE for JAVA Developers][eclipse]
@@ -81,7 +86,7 @@ List of the Applications / Frameworks used in this feature demonstration.
 
 ## <a name="GettingStarted">Getting Started</a>
 
-This is a 'clean-sheet' guide for going from zero applications installed to having a fully running animated game demonstration running on your Android device.
+This is a 'clean-sheet' guide for getting you started from having zero applications installed to having a 2D animated game demonstration fully running on your Android device.
 
 ### Setup the Developer Environment
 
@@ -130,7 +135,7 @@ LibGDX provides an executable [gdx-setup.jar][libgdx-jar] for creating an initia
 [libgdx-setup]: https://github.com/libgdx/libgdx/wiki/Project-Setup-Gradle
 [libgdx-jar]:   https://libgdx.badlogicgames.com/nightlies/dist/gdx-setup.jar
 
-### Build and Run Game
+### Open Workspace in Eclipse
 Now that you have your Workspace setup it's time to open it in Eclipse, and build!
 
 1. Import Workspace into Eclipse - See [Eclipse and Grade - Importing][libgdx-wiki-import] for full details
@@ -139,8 +144,44 @@ Now that you have your Workspace setup it's time to open it in Eclipse, and buil
 	3. Browse to *your-new-workspace*, Click Build Model
 	4. Select all Projects, click Finish
 	5. Wait for Gradle for Eclipse plugin to download all other project dependencies 
-2. Run the Desktop Application
-	1. In Eclipse, select the 'demo-desktop' project
-	2. Choose Run > Run As > Java Application
+
+### Run as Desktop Application
+
+![Game screenshot on Desktop](doc/img/screenshot-desktop.png)
+
+1. In Eclipse, select the 'demo-desktop' project
+2. Choose Run > Run 
+3. Choose Java Application
+4. Choose 'DesktopLauncher' as the main application, click 'OK' to run
+5. The Demo Game will now build and run as a Java application on your Desktop
+6. Click the 'X' button to close the game
+
+###Run as Android Device Application
+
+![Game screenshot on Android](doc/img/screenshot-android.png)
+
+1. Ensure you have installed the Android USB / ADB drivers for your device
+	1. [How to Install and Use ADB][how-to-adb]
+1. Enable your phone for USB Debugging, Unknown Sources
+	1. [Android Debug Bridge and Debugging][android-adb]
+3. Wait for the drivers to install and the phone to be recognised
+4. In Eclipse, select the 'demo-android' project
+5. Choose Run > Run
+6. Choose Android Application
+7. Eclipse should choose the default android application
+8. Click Yes to Auto-monitor LogCat (debugging console)
+9. Ensure your phone is unlocked
+10. The Demo Game will now build and run as an Android application on your Android Device.
 
 [libgdx-wiki-import]: https://github.com/libgdx/libgdx/wiki/Gradle-and-Eclipse#importing-your-project
+[how-to-adb]: http://www.howtogeek.com/125769/how-to-install-and-use-abd-the-android-debug-bridge-utility/
+[android-adb]: http://developer.android.com/tools/help/adb.html
+
+## <a name="Notes">Notes</a>
+
+*This is a work-in-progress, please Fork, Edit and Push any improvements back to this project, or email me:* 
+`github1`[][nul]`@`[][nul]`blueacorn.co.uk`
+
+[nul]: http://nul
+
+---
