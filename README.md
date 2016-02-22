@@ -46,10 +46,12 @@ List of the Applications / Frameworks used in this feature demonstration.
 - [LibGDX][libgdx]
 	- Desktop/Android/BlackBerry/iOS/HTML5 Java game development framework
 	- Gradle setup application, used to create the project gradle environment with LibGDX dependencies.
+	- Tested with LibGDX [gdx-setup.jar][libgdx-jar] nightly\dist  (17-Feb-2016)
 - [Spriter][spriter]
 	- The Spriter IDE - create animations using key-frames constructed from small, re-useable images (such as body parts) and animating the body parts using bones and . This method of animating offers many benefits for several aspects of a game's development and for the finished product. 
 - [Spriter Runtime][]
 	- A Generic Java runtime for importing and executing [Spriter][] animation files in your game.
+	- Tested with commit [74fe6fd][]  (Nov 27, 2015)
 - [Android SDK Tools][android-sdk]
 	- SDK Tools is a downloadable component for the Android SDK. It includes the complete set of development and debugging tools for the Android SDK.
 	- You only need the SDK, not the full Android Studio. Install the latest stable platforms via the SDK Manager.
@@ -65,8 +67,11 @@ List of the Applications / Frameworks used in this feature demonstration.
 - [Java Development Kit (JDK) 7+][oracle-jdk]
 	- Tested with Java SE Development Kit 8u73
 	- (JDK 6 will not work!)
+- Android Device USB / ADB driver 
+	- Android USB / ADB Device driver from your device manufacturer.
 
 [eclipse]:     http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/junosr2
+[74fe6fd]: https://github.com/Trixt0r/spriter/tree/74fe6fd8ccd2807f196f25aef4dbbb651f0db5db
 [android-sdk]: http://developer.android.com/sdk/index.html#Other
 [adt-eclipse]: http://developer.android.com/tools/sdk/eclipse-adt.html
 [oracle-jdk]:  http://www.oracle.com/technetwork/java/javase/downloads/index.html
@@ -76,7 +81,7 @@ List of the Applications / Frameworks used in this feature demonstration.
 
 This is a 'clean-sheet' guide for going from zero applications installed to having a fully running animated game demonstration running on your Android device.
 
-### Setup the Eclipse Developer Environment
+### Setup the Developer Environment
 
 1. See [LibGDX Wiki - Setting up your Development Environment][Libgdx-wiki-ide] for full instructions
 	1. Install [JAVA SDK 7+][jdk]
@@ -85,8 +90,17 @@ This is a 'clean-sheet' guide for going from zero applications installed to havi
 	4. Install [Android Development Tools for Eclipse][adt-eclipse]
 	5. Install [Gradle Tooling for Eclipse][gradle-eclipse]
 	6. Optional: See [LibGDX Wiki][Libgdx-wiki-ide] for setting up iOS (not tested)
+	7. Configure Android SDK (using Android SDK Manager)
+		1. Install Android SDK Build Tools 23.0.1
+		2. Install Android SDK Platform (API 20)
+	8. Install Android Device USB Driver 
+		1. If you have a Google phone: Install Google USB Driver using Android SDK Manager
+		2. If you have a Samsung phone: Install [Samsung USB Driver][samsung-usb]
+		3. If you have a different Android device, install the Android USB / ADB driver from your device manufacturer.
 
 [Libgdx-wiki-ide]: https://github.com/libgdx/libgdx/wiki/Setting-up-your-Development-Environment-%28Eclipse%2C-Intellij-IDEA%2C-NetBeans%29
+
+[samsung-usb]: http://developer.samsung.com/technical-doc/view.do?v=T000000117
 
 ### Setup Game Project Workspace
 LibGDX provides an executable [gdx-setup.jar][libgdx-jar] for creating an initial Eclipse workspace that includes Android, Desktop, Html, iOS and Core projects, with LibGDX dependencies. This uses [Gradle][] build files to integrate this workspace into Eclipse (or your IDE of choice). 
@@ -114,4 +128,14 @@ LibGDX provides an executable [gdx-setup.jar][libgdx-jar] for creating an initia
 [libgdx-setup]: https://github.com/libgdx/libgdx/wiki/Project-Setup-Gradle
 [libgdx-jar]:   https://libgdx.badlogicgames.com/nightlies/dist/gdx-setup.jar
 
-### 
+### Build Game for Desktop
+Now that you have your Workspace setup it's time to open it in Eclipse, and build!
+
+1. Import Workspace into Eclipse - See [Eclipse and Grade - Importing][libgdx-wiki-import] for full details
+	1. Choose File -> Import 
+	2. Select Gradle -> Gradle project, Next
+	3. Browse to *your-new-workspace*, Click Build Model
+	4. Select all Projects, click Finish
+	5. Wait for Gradle for Eclipse plugin to download all other project dependencies 
+
+[libgdx-wiki-import]: https://github.com/libgdx/libgdx/wiki/Gradle-and-Eclipse#importing-your-project
