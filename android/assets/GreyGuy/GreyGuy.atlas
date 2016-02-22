@@ -1,0 +1,495 @@
+
+GreyGuy.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arms/p_arm_idle
+  rotate: false
+  xy: 815, 335
+  size: 66, 49
+  orig: 66, 49
+  offset: 0, 0
+  index: -1
+arms/p_arm_idle_a
+  rotate: true
+  xy: 873, 281
+  size: 52, 37
+  orig: 52, 37
+  offset: 0, 0
+  index: -1
+arms/p_arm_slide
+  rotate: true
+  xy: 806, 213
+  size: 66, 49
+  orig: 66, 49
+  offset: 0, 0
+  index: 0
+arms/p_arm_throw
+  rotate: true
+  xy: 817, 145
+  size: 66, 49
+  orig: 66, 49
+  offset: 0, 0
+  index: 0
+arms/p_arm_walk
+  rotate: true
+  xy: 857, 213
+  size: 66, 49
+  orig: 66, 49
+  offset: 0, 0
+  index: -1
+arms/p_forarm_idle
+  rotate: false
+  xy: 894, 417
+  size: 53, 44
+  orig: 53, 44
+  offset: 0, 0
+  index: 0
+arms/p_forarm_idle_a
+  rotate: true
+  xy: 909, 797
+  size: 50, 36
+  orig: 50, 36
+  offset: 0, 0
+  index: -1
+arms/p_forarm_jump
+  rotate: false
+  xy: 868, 102
+  size: 53, 44
+  orig: 53, 44
+  offset: 0, 0
+  index: 0
+arms/p_forarm_side
+  rotate: false
+  xy: 855, 56
+  size: 53, 44
+  orig: 53, 44
+  offset: 0, 0
+  index: 0
+arms/p_forarm_under
+  rotate: false
+  xy: 855, 10
+  size: 53, 44
+  orig: 53, 44
+  offset: 0, 0
+  index: 0
+arms/p_forarm_walk_a
+  rotate: true
+  xy: 909, 745
+  size: 50, 36
+  orig: 50, 36
+  offset: 0, 0
+  index: -1
+arms/throw_blur
+  rotate: false
+  xy: 2, 814
+  size: 257, 227
+  orig: 257, 227
+  offset: 0, 0
+  index: 0
+feet/p_foot_hit_a
+  rotate: true
+  xy: 858, 608
+  size: 53, 78
+  orig: 53, 78
+  offset: 0, 0
+  index: -1
+feet/p_foot_hot
+  rotate: false
+  xy: 195, 102
+  size: 83, 62
+  orig: 83, 62
+  offset: 0, 0
+  index: 0
+feet/p_foot_idle
+  rotate: false
+  xy: 604, 99
+  size: 53, 78
+  orig: 53, 78
+  offset: 0, 0
+  index: 0
+feet/p_foot_jump
+  rotate: false
+  xy: 425, 7
+  size: 53, 78
+  orig: 53, 78
+  offset: 0, 0
+  index: 0
+feet/p_foot_walk
+  rotate: false
+  xy: 642, 19
+  size: 53, 78
+  orig: 53, 78
+  offset: 0, 0
+  index: 0
+feet/p_foot_walk_a
+  rotate: false
+  xy: 903, 969
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+guns/hand-gun
+  rotate: true
+  xy: 858, 744
+  size: 81, 49
+  orig: 81, 49
+  offset: 0, 0
+  index: -1
+hands/p_hand
+  rotate: false
+  xy: 280, 87
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: 1
+hands/p_hand
+  rotate: false
+  xy: 361, 87
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: 2
+hands/p_hand_a
+  rotate: false
+  xy: 644, 351
+  size: 79, 78
+  orig: 79, 78
+  offset: 0, 0
+  index: -1
+hands/p_hand_a_edge
+  rotate: false
+  xy: 734, 441
+  size: 79, 78
+  orig: 79, 78
+  offset: 0, 0
+  index: -1
+hands/p_hand_b
+  rotate: false
+  xy: 644, 271
+  size: 79, 78
+  orig: 79, 78
+  offset: 0, 0
+  index: -1
+hands/p_hand_c
+  rotate: false
+  xy: 644, 191
+  size: 79, 78
+  orig: 79, 78
+  offset: 0, 0
+  index: -1
+hands/p_hand_edge
+  rotate: false
+  xy: 263, 8
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: 0
+hands/p_hand_float
+  rotate: false
+  xy: 344, 8
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: 0
+hands/p_hand_hang
+  rotate: true
+  xy: 858, 663
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: 0
+hands/p_hand_hang
+  rotate: true
+  xy: 659, 110
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: 1
+hands/p_hand_hang_a
+  rotate: false
+  xy: 182, 22
+  size: 79, 78
+  orig: 79, 78
+  offset: 0, 0
+  index: -1
+hands/p_hand_hit
+  rotate: false
+  xy: 480, 20
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: 0
+hands/p_hand_hit_a
+  rotate: false
+  xy: 442, 99
+  size: 79, 78
+  orig: 79, 78
+  offset: 0, 0
+  index: -1
+hands/p_hand_idle
+  rotate: false
+  xy: 561, 20
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: 0
+hands/p_hand_jump
+  rotate: true
+  xy: 697, 29
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: 0
+hands/p_hand_jump_a
+  rotate: false
+  xy: 523, 99
+  size: 79, 78
+  orig: 79, 78
+  offset: 0, 0
+  index: -1
+hands/p_hand_prepunch
+  rotate: false
+  xy: 734, 362
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: 0
+hands/p_hand_prepunch_x
+  rotate: false
+  xy: 725, 283
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: -1
+hands/p_hand_punch
+  rotate: false
+  xy: 725, 204
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: 0
+hands/p_hand_push
+  rotate: true
+  xy: 738, 123
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: 0
+hands/p_hand_push_a
+  rotate: false
+  xy: 824, 528
+  size: 79, 78
+  orig: 79, 78
+  offset: 0, 0
+  index: -1
+hands/p_hand_slide
+  rotate: true
+  xy: 776, 42
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: 0
+hands/p_hand_throw
+  rotate: true
+  xy: 815, 440
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: 0
+hands/p_punch_blur
+  rotate: false
+  xy: 2, 108
+  size: 191, 56
+  orig: 191, 56
+  offset: 0, 0
+  index: -1
+head/p_head_blink
+  rotate: false
+  xy: 2, 598
+  size: 212, 214
+  orig: 212, 214
+  offset: 0, 0
+  index: 0
+head/p_head_blink
+  rotate: false
+  xy: 261, 827
+  size: 212, 214
+  orig: 212, 214
+  offset: 0, 0
+  index: 1
+head/p_head_concern
+  rotate: false
+  xy: 2, 382
+  size: 212, 214
+  orig: 212, 214
+  offset: 0, 0
+  index: -1
+head/p_head_concern_blink
+  rotate: false
+  xy: 475, 827
+  size: 212, 214
+  orig: 212, 214
+  offset: 0, 0
+  index: 0
+head/p_head_concern_blink
+  rotate: false
+  xy: 2, 166
+  size: 212, 214
+  orig: 212, 214
+  offset: 0, 0
+  index: 1
+head/p_head_die
+  rotate: false
+  xy: 689, 827
+  size: 212, 214
+  orig: 212, 214
+  offset: 0, 0
+  index: -1
+head/p_head_hurt
+  rotate: false
+  xy: 216, 598
+  size: 212, 214
+  orig: 212, 214
+  offset: 0, 0
+  index: -1
+head/p_head_idle
+  rotate: false
+  xy: 216, 382
+  size: 212, 214
+  orig: 212, 214
+  offset: 0, 0
+  index: -1
+head/p_head_idle_blink
+  rotate: false
+  xy: 216, 166
+  size: 212, 214
+  orig: 212, 214
+  offset: 0, 0
+  index: 0
+head/p_head_idle_blink
+  rotate: false
+  xy: 430, 611
+  size: 212, 214
+  orig: 212, 214
+  offset: 0, 0
+  index: 1
+head/p_head_push
+  rotate: false
+  xy: 430, 395
+  size: 212, 214
+  orig: 212, 214
+  offset: 0, 0
+  index: -1
+head/p_head_turn
+  rotate: false
+  xy: 644, 611
+  size: 212, 214
+  orig: 212, 214
+  offset: 0, 0
+  index: 0
+head/p_head_walk
+  rotate: false
+  xy: 430, 179
+  size: 212, 214
+  orig: 212, 214
+  offset: 0, 0
+  index: -1
+legs/p_leg_a
+  rotate: true
+  xy: 905, 545
+  size: 61, 45
+  orig: 61, 45
+  offset: 0, 0
+  index: -1
+legs/p_leg_idle
+  rotate: false
+  xy: 815, 386
+  size: 65, 52
+  orig: 65, 52
+  offset: 0, 0
+  index: 0
+legs/p_leg_walk
+  rotate: false
+  xy: 806, 281
+  size: 65, 52
+  orig: 65, 52
+  offset: 0, 0
+  index: 0
+legs/p_pelvis_die
+  rotate: false
+  xy: 868, 148
+  size: 48, 63
+  orig: 48, 63
+  offset: 0, 0
+  index: -1
+legs/p_pelvis_idle
+  rotate: false
+  xy: 894, 463
+  size: 48, 63
+  orig: 48, 63
+  offset: 0, 0
+  index: -1
+legs/p_pelvis_walk
+  rotate: false
+  xy: 883, 352
+  size: 48, 63
+  orig: 48, 63
+  offset: 0, 0
+  index: -1
+legs/p_thigh_a
+  rotate: false
+  xy: 776, 2
+  size: 53, 38
+  orig: 53, 38
+  offset: 0, 0
+  index: -1
+legs/p_thigh_idle
+  rotate: true
+  xy: 903, 909
+  size: 58, 42
+  orig: 58, 42
+  offset: 0, 0
+  index: 0
+legs/p_thigh_walk
+  rotate: true
+  xy: 903, 849
+  size: 58, 42
+  orig: 58, 42
+  offset: 0, 0
+  index: 0
+torso/p_torso_front
+  rotate: false
+  xy: 644, 521
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+torso/p_torso_idle
+  rotate: false
+  xy: 2, 18
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+torso/p_torso_jump
+  rotate: false
+  xy: 644, 431
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+torso/p_torso_punch
+  rotate: false
+  xy: 734, 521
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: 0
+torso/p_torso_walk
+  rotate: false
+  xy: 92, 18
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1

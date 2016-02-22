@@ -1,6 +1,8 @@
 # LibGDX Spriter Demonstration
 Demonstrates using [LibGDX][] game platform with the [Spriter Runtime][] to produce multi-platform games based on [Spriter][] 2D animations, that run on Android, Desktop, HTML and iOS.
 
+*Note: This is a work-in-progress, please Fork, Edit and Push any improvements back to this project, or email me: `github1``@``blueacorn.co.uk`*
+
 [LibGDX]: https://libgdx.badlogicgames.com/download.html
 [Spriter]: http://brashmonkey.com
 [Spriter Runtime]: https://github.com/Trixt0r/spriter
@@ -128,7 +130,7 @@ LibGDX provides an executable [gdx-setup.jar][libgdx-jar] for creating an initia
 [libgdx-setup]: https://github.com/libgdx/libgdx/wiki/Project-Setup-Gradle
 [libgdx-jar]:   https://libgdx.badlogicgames.com/nightlies/dist/gdx-setup.jar
 
-### Build Game for Desktop
+### Build and Run Game
 Now that you have your Workspace setup it's time to open it in Eclipse, and build!
 
 1. Import Workspace into Eclipse - See [Eclipse and Grade - Importing][libgdx-wiki-import] for full details
@@ -137,5 +139,8 @@ Now that you have your Workspace setup it's time to open it in Eclipse, and buil
 	3. Browse to *your-new-workspace*, Click Build Model
 	4. Select all Projects, click Finish
 	5. Wait for Gradle for Eclipse plugin to download all other project dependencies 
+2. Run the Desktop Application
+	1. In Eclipse, select the 'demo-desktop' project
+	2. Choose Run > Run As > Java Application
 
 [libgdx-wiki-import]: https://github.com/libgdx/libgdx/wiki/Gradle-and-Eclipse#importing-your-project
