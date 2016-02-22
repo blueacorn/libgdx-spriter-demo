@@ -107,16 +107,16 @@ This is a 'clean-sheet' guide for getting you started from having zero applicati
 	4. Install [Android Development Tools for Eclipse][adt-eclipse]
 	5. Install [Gradle Tooling for Eclipse][gradle-eclipse]
 	6. Optional: See [LibGDX Wiki][Libgdx-wiki-ide] for setting up iOS (not tested)
-	7. Configure [Android SDK Packages][android-packages] (using Android SDK Manager)
-		1. Add Android SDK Build Tools 23.0.1
-		2. Add Android SDK Platform Tools
-		2. Add Android SDK Platform (API 20)
-		3. Optional: Add Android System Image (for Emulator)
-	8. Install [Android Device USB Drivers][google-usb]
-		1. If you have a Google phone: Install [Google USB Driver][google-usb]
-		2. If you have a Samsung phone: Install [Samsung USB Driver][samsung-usb]
-		3. If you have a different Android device: install the Android USB / ADB driver from your [device manufacturer][oem-usb].
-	9.	Install [Tortoise GIT Client][tortoise]
+2. Configure [Android SDK Packages][android-packages] (using Android SDK Manager)
+	1. Add Android SDK Build Tools 23.0.1
+	2. Add Android SDK Platform Tools
+	3. Add Android SDK Platform (API 20)
+	4. Optional: Add Android System Image (for Emulator)
+3. Install [Android Device USB Drivers][google-usb]
+	1. If you have a Google phone: Install [Google USB Driver][google-usb]
+	2. If you have a Samsung phone: Install [Samsung USB Driver][samsung-usb]
+	3. If you have a different Android device: install the Android USB / ADB driver from your [device manufacturer][oem-usb].
+4.	Install [Tortoise GIT Client][tortoise]
 
 [Libgdx-wiki-ide]: https://github.com/libgdx/libgdx/wiki/Setting-up-your-Development-Environment-%28Eclipse%2C-Intellij-IDEA%2C-NetBeans%29
 [android-packages]: http://developer.android.com/sdk/installing/adding-packages.html
