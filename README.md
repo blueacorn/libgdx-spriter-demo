@@ -1,7 +1,7 @@
 # LibGDX + Spriter Demonstration
 Demonstration Project using [LibGDX][] game platform with the [Spriter Runtime][] to produce multi-platform games based on [Spriter][] 2D animations, that run on Android, Desktop, HTML and iOS.
 
-[LibGDX]: https://libgdx.badlogicgames.com/download.html
+[LibGDX]: https://libgdx.badlogicgames.com
 [Spriter]: http://brashmonkey.com
 [Spriter Runtime]: https://github.com/Trixt0r/spriter
 
