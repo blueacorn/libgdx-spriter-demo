@@ -35,5 +35,6 @@ public class LibGdxAtlasLoader extends Loader<Sprite>{
 	@Override
 	public void dispose(){
 		this.atlas.dispose();
+		super.dispose();
 	}
 }
